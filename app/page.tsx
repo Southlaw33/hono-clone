@@ -6,8 +6,10 @@ import FeatureBlock from "./blocks/feature-block/FeatureBlock";
 
 const rootPage = () => {
   return (
-    <div className="flex flex-col items-stretch">
-      <NavigationBar />
+    <div className="flex flex-col items-stretch ">
+      <div className="sticky top-0 container bg-base-100/50 mx-auto py-6 backdrop-blur-xl z-50">
+        <NavigationBar />
+      </div>
       <div className="container mx-auto p-24">
         <HeroBlock />
       </div>
