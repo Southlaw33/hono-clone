@@ -1,3 +1,4 @@
 /*msot important : integrates TailwindCss*/
 @import "tailwindcss";
 
+@plugin "daisyui";
