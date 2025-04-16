@@ -2,6 +2,7 @@ import FooterBar from "@/components/footer-bar/FooterBar";
 import NavigationBar from "@/components/navigation-bar/NavigationBar";
 import React from "react";
 import HeroBlock from "./blocks/hero-block/HeroBlock";
+import FeatureBlock from "./blocks/feature-block/FeatureBlock";
 
 const rootPage = () => {
   return (
@@ -10,7 +11,9 @@ const rootPage = () => {
       <div className="container mx-auto p-24">
         <HeroBlock />
       </div>
-      <div className="h-48 bg-purple-500" />
+      <div className="container mx-auto p-24">
+        <FeatureBlock />
+      </div>
       <FooterBar />
     </div>
   );
